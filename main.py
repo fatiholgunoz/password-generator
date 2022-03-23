@@ -71,7 +71,7 @@ while (nr_letters_left+nr_symbols_left+nr_numbers_left) > 0:
 
 
 # Trial 2: Shuffling the non-randomized password,
-# WITHOUT USING random.randint
+# WITHOUT USING random.shuffle
 
 pwchars = []
 for number in range(0,nr_letters):
